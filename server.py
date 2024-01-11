@@ -25,4 +25,4 @@ def open():
 if __name__ == '__main__':
     port = 9001
     app.run(port=port, debug=True)
-    print(f"Serveur en cours d'exécution sur le port {port}")
+    print(f"Serveur en cours d'execution sur le port {port}")
