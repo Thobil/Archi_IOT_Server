@@ -6,7 +6,7 @@ CORS(app)  # Ajoutez cette ligne pour activer le support CORS
 
 @app.route('/mac')
 def get_mac():
-    elements = ['Élément 1', 'Élément 2', 'Élément 3']
+    elements = ['element 1', 'element 2', 'element 3']
     print("****************PULL_LIST*****************")
     return jsonify(elements)
 
